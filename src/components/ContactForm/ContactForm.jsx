@@ -19,8 +19,6 @@ const contactValidationSchema = Yup.object().shape({
   .required("Номер телефону є обов'язковий"),
 })
 
-
-
 const ContactForm = () => {
 
 const dispatch = useDispatch()

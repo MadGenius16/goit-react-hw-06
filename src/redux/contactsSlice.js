@@ -1,6 +1,5 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
 
-
 const contactSlice = createSlice({
   name: "contacts",
   initialState: {
